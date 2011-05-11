@@ -1,0 +1,9 @@
+development:
+    host: directory.yale.edu
+    port: 389
+    base: o=yale.edu
+
+production:
+    host: directory.yale.edu
+    port: 389
+    base: o=yale.edu

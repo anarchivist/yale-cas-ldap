@@ -29,6 +29,7 @@ GEM
       activesupport (= 2.3.11)
       rake (>= 0.8.3)
     rake (0.8.7)
+    ruby-ldap (0.9.11)
     rubycas-client (2.2.1)
       activesupport
 
@@ -38,4 +39,5 @@ PLATFORMS
 DEPENDENCIES
   activeldap
   rails (= 2.3.11)
+  ruby-ldap
   rubycas-client

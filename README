@@ -1,2 +1,9 @@
 This is a skeleton Rails application hooked up for CAS authentication and for pulling
-in user attributes using LDAP.
+in user attributes using LDAP for Yale University.
+
+This code is based on the sample Rails application distributed with rubycas-client: https://github.com/gunark/rubycas-client/tree/master/examples/rails
+
+Dependencies:
+* Rails 2.3.11
+* activeldap
+* rubycas-client

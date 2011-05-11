@@ -1,4 +1,7 @@
 require 'active_ldap'
+require 'casclient'
+require 'casclient/frameworks/rails/filter'
+
 
 # A more advanced example.
 # For basic usage see the SimpleExampleController.

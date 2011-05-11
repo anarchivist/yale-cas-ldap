@@ -3,7 +3,18 @@
 
 <p>
 <strong>Extra Attributes</strong>:<br />
-  <%= debug(@extra_attributes[:data]) %>
+  <dl>
+    <dt>Name:</dt>
+    <dd><%= @extra_attributes[:cn] %></dd>
+    <dt>Title:</dt>
+    <dd><%= @extra_attributes[:title] %></dd>
+    <dt>Division:<dt>
+    <dd><%= @extra_attributes[:organizationName] %>
+    <dt>Organization:</dt>
+    <dd><%= @extra_attributes[:ou] %>
+    <dt>Email:</dt>
+    <dd><%= @extra_attributes[:mail] %></dd>
+  </dl>
 </p>
 
 <p>[ <%= link_to("Logout", :action => 'logout') %> ]</p>
